@@ -16,7 +16,7 @@ matches:
     
   # Plaatje genereren
   - trigger: "/plaatje"
-    replace: "Maak een [stijl van illustratie, bijv. realistische, cartoonachtige, abstracte, digitale schilderij] illustratie van [hoofdonderwerp of scène], waarbij de volgende elementen zichtbaar zijn: [beschrijf omgeving, personages, objecten, kleuren, sfeer]. De setting is [locatie en/of tijd van de dag/seizoen], met [eventuele specifieke details zoals kleding, houding, perspectief, lichtinval]. Gebruik een beeldverhouding van [bijv. 16:9 of vierkant] en geef prioriteit aan [bijv. sfeer, detaillering, compositie, kleurgebruik]."
+    replace: "Maak een [stijl van illustratie, bijv. realistische, cartoonachtige, abstracte, digitale schilderij$|$] illustratie van [hoofdonderwerp of scène], waarbij de volgende elementen zichtbaar zijn: [beschrijf omgeving, personages, objecten, kleuren, sfeer]. De setting is [locatie en/of tijd van de dag/seizoen], met [eventuele specifieke details zoals kleding, houding, perspectief, lichtinval]. Gebruik een beeldverhouding van [bijv. 16:9 of vierkant] en geef prioriteit aan [bijv. sfeer, detaillering, compositie, kleurgebruik]."
     
   # Doorzoek
   - trigger: "/doorzoek"
