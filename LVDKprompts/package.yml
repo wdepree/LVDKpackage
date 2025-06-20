@@ -16,4 +16,4 @@ matches:
     
   # WKP
   - trigger: "/wkp"
-    replace: "Waldo de Pree"
+    replace: "Waldo Karst de Pree"
