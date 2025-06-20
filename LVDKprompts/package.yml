@@ -1,5 +1,5 @@
 matches:
-  - trigger: "/LVDK"
+  - trigger: "/lvdk"
     replace: "Lemstra Van der Korst"
   
   # Redigeer tekst
@@ -14,6 +14,10 @@ matches:
   - trigger: "/br"
     replace: "Best regards,"
     
-  # WKP
-  - trigger: "/wkp"
-    replace: "Waldo Karst de Pree"
+  # Plaatje genereren
+  - trigger: "/plaatje"
+    replace: "Maak een [stijl van illustratie, bijv. realistische, cartoonachtige, abstracte, digitale schilderij] illustratie van [hoofdonderwerp of scène], waarbij de volgende elementen zichtbaar zijn: [beschrijf omgeving, personages, objecten, kleuren, sfeer]. De setting is [locatie en/of tijd van de dag/seizoen], met [eventuele specifieke details zoals kleding, houding, perspectief, lichtinval]. Gebruik een beeldverhouding van [bijv. 16:9 of vierkant] en geef prioriteit aan [bijv. sfeer, detaillering, compositie, kleurgebruik]."
+    
+  # Doorzoek
+  - trigger: "/doorzoek"
+    replace: "Doorzoek uitsluitend het aangehechte PDF-bestand en geef een overzicht van alle relevante passages waarin [beschrijf hier de specifieke juridische kwestie, term, clausule of gebeurtenis] wordt behandeld. Vermeld per gevonden resultaat:\nHet paginanummer (en indien beschikbaar het randnummer);\nEen korte samenvatting van de relevante inhoud;\nIndien van toepassing: een letterlijke citaat van de relevante passage.\nBeperk je uitsluitend tot informatie uit het PDF-bestand en geef geen aanvullingen uit andere bronnen."
