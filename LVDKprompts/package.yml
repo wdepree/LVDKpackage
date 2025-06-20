@@ -20,4 +20,4 @@ matches:
     
   # Doorzoek
   - trigger: "/doorzoek"
-    replace: "Doorzoek uitsluitend het aangehechte PDF-bestand en geef een overzicht van alle relevante passages waarin [beschrijf hier de specifieke juridische kwestie, term, clausule of gebeurtenis] wordt behandeld. Vermeld per gevonden resultaat:\nHet paginanummer (en indien beschikbaar het randnummer);\nEen korte samenvatting van de relevante inhoud;\nIndien van toepassing: een letterlijke citaat van de relevante passage.\nBeperk je uitsluitend tot informatie uit het PDF-bestand en geef geen aanvullingen uit andere bronnen."
+    replace: "Doorzoek uitsluitend het aangehechte PDF-bestand en geef een overzicht van alle relevante passages waarin [beschrijf hier de specifieke juridische kwestie, term, clausule of gebeurtenis] wordt behandeld. Vermeld per gevonden resultaat:\n - Het paginanummer (en indien beschikbaar het randnummer);\n - Een korte samenvatting van de relevante inhoud;\n - Indien van toepassing: een letterlijke citaat van de relevante passage.\n\nBeperk je uitsluitend tot informatie uit het PDF-bestand en geef geen aanvullingen uit andere bronnen."
