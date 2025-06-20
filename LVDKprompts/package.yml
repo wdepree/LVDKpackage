@@ -1,0 +1,15 @@
+matches:
+  - trigger: "/LVDK"
+    replace: "Lemstra Van der Korst"
+  
+  # Redigeer tekst
+  - trigger: "/spelling"
+    replace: "Controleer spelling, grammatica, opbouw, logica en bondigheid van onderstaande tekst. Vervang waar nodig. Behoud de originele taal. Geef de volledige verbeterde tekst terug met links het origineel en rechts de verbeterde tekst. Als er geen verbeteringen zijn dan kan je gewoon aangegeven dat de tekst daar niet is verbeterd. Je hoeft de opdracht niet te herhalen en hoeft ook geen inleidend tekstje te geven voor de verbeterde tekst. Tekst: "
+  
+  # Met vriendelijke groet
+  - trigger: "/mvg"
+    replace: "Met vriendelijke groet,"
+  
+  # Best regards
+  - trigger: "/br"
+    replace: "Best regards,"
