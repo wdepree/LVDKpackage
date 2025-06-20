@@ -15,5 +15,5 @@ matches:
     replace: "Best regards,"
     
   # WKP
-  - trigger: "wkp"
+  - trigger: "/wkp"
   - replace: "Waldo de Pree"
