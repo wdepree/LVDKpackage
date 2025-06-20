@@ -13,3 +13,7 @@ matches:
   # Best regards
   - trigger: "/br"
     replace: "Best regards,"
+    
+  # WKP
+  - trigger: "wkp"
+  - replace: "Waldo de Pree"
